@@ -2,7 +2,9 @@ package com.jixs.elasticjob.test.configure;
 
 import lombok.Data;
 
-/**zk注册中心配置信息
+/**
+ * zk注册中心配置信息
+ *
  * @author jixs
  * @date 2019/4/27
  */
