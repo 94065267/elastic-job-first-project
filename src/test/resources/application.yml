@@ -1,0 +1,15 @@
+elasticjob:
+  zookeeper:
+    server-lists: 127.0.0.1:2181
+    namespace: elastic-job-demo
+  jobMap:
+    mySimpleJob:
+      cron: 0/5 * * * * ?
+      shardingTotalCount: 6
+      shardingItemParameters: 0=A,1=B,2=C
+      jobParameters: jixstest
+    myDataflowJob:
+      cron: 0/5 * * * * ?
+      shardingTotalCount: 1
+      shardingItemParameters: 0=01
+      jobParameters: limit=100
