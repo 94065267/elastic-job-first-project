@@ -6,7 +6,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 /**
  * 启动类
  *
- * @author jixs_bj
+ * @author jixs
  * @date 2019/4/26
  */
 @SpringBootApplication
