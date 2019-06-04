@@ -44,13 +44,14 @@
 
         <dependency>
             <groupId>com.dangdang</groupId>
-            <artifactId>elastic-job-lite-core</artifactId>
-            <version>${elasticjob.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.dangdang</groupId>
             <artifactId>elastic-job-lite-spring</artifactId>
             <version>${elasticjob.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.4.6</version>
         </dependency>
 
     </dependencies>
